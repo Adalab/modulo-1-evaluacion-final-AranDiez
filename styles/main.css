@@ -15,6 +15,8 @@
   /* font-family: "Poppins", sans-serif;
   font-weight: 700; */
 }
+
+/* -------------------------------------HEADER---------------------------------- */
 .header {
   background-image: url(./images/header.jpg);
   background-size: auto;
@@ -38,8 +40,7 @@
   height: 96px;
   width: 213px;
   margin-top: 19px;
-  margin-right: 101px;
-  margin-left: 43px;
+  margin: 19px auto;
 }
 .header__section2 {
   display: flex;
@@ -73,4 +74,102 @@
   height: 48px;
   width: 176px;
   padding: 12px 24px 12px 24px;
+}
+@media (min-width: 768px) {
+  .header__section1--menu {
+    height: 24px;
+    width: 24px;
+  }
+  .header__section1--logo {
+    height: 96px;
+    width: 213px;
+    margin-top: 19px;
+    margin-right: 101px;
+    margin-left: 43px;
+  }
+}
+/* -------------------------------------HEADER---------------------------------- */
+.main__title:first-letter {
+  text-transform: capitalize;
+}
+.main__title {
+  width: 322px;
+  height: 113px;
+  margin: 0 0 37px;
+  padding-top: 41px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--darkblue-color);
+}
+
+.main__module1 {
+  padding: 0 47px;
+  display: grid;
+  justify-content: center;
+  background-color: var(--grey-color);
+}
+.main__article {
+  display: grid;
+  justify-content: center;
+}
+.main__module1--image1 {
+  margin: 37px auto 47px auto;
+}
+.main__module1--image2 {
+  margin: 36px auto 42px auto;
+}
+.main__module1--image3 {
+  margin: 40px auto 30px auto;
+}
+
+.main__title1,
+.main__title2,
+.main__title3 {
+  width: 208px;
+  height: 23px;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--darkblue-color);
+}
+.main__title1,
+.main__title3 {
+  margin-bottom: 12px;
+}
+.main__title2 {
+  margin-bottom: 53px;
+}
+.main__title1,
+.main__title2,
+.main__title3:first-letter {
+  text-transform: capitalize;
+}
+.main__article--par {
+  width: 208px;
+  height: 96px;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--darkblue-color);
+}
+.main__article--par:first-letter {
+  text-transform: capitalize;
 }
