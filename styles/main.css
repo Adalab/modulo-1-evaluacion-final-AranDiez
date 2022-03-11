@@ -29,7 +29,8 @@
 .header__section1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  position: fixed;
+  width: 100vw;
 }
 .header__section1--menu {
   height: 24px;
@@ -39,7 +40,6 @@
 .header__section1--logo {
   height: 96px;
   width: 213px;
-  margin-top: 19px;
   margin: 19px auto;
 
 
@@ -56,7 +56,7 @@
   margin-top: 100px;
   width: 414px;
   height: 38px;
-  margin: 100px 0 24px;
+  margin: 50vh 0 24px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -69,23 +69,24 @@
   background-color: var(--darkblue-color);
   color: var(--white-color);
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
   font-size: 16px;
   height: 48px;
   width: 176px;
   padding: 12px 24px 12px 24px;
+  display: flex;
+  justify-content: center;
 }
+.header__section2--button:hover {
+  background-color: var(--orange-color);
+  color: var(--darkblue-color);
+  transition: color ease 2s;
+  font-size: 17px;
+}
+
+
 @media (min-width: 768px) {
-  .header__section1--menu {
-    height: 24px;
-    width: 24px;
-  }
-  .header__section1--logo {
-    height: 96px;
-    width: 213px;
-    margin-top: 19px;
-    margin-right: 101px;
-    margin-left: 43px;
-  }
+
 }
 /* -------------------------------------MAIN---------------------------------- */
 /* -------------------------------------MODULE1---------------------------------- */
@@ -209,6 +210,9 @@
   align-items: center;
 }
 
+
+
+
 /* -------------------------------------MODULE3---------------------------------- */
 .main__module3--section1 {
   display: grid;
@@ -255,9 +259,18 @@
   justify-content: center;
   align-items: center;
 }
+.main__module3--button:hover {
+  background-color: var(--orange-color);
+  color: var(--darkblue-color);
+  transition: color ease 2s;
+  font-size: 17px;
+}
 
 .main__module3--img {
-  width: 100vw;
+height: 30%;
+background-size: cover;
+max-width: 100%;
+margin: auto;
   /* margin-bottom: -15px; */
 }
 
@@ -296,10 +309,30 @@
 }
 .fa-linkedin-in, .fa-instagram, .fa-twitter {
   color: var(--grey-color);
+  padding-right: 10px;
 
 }
 .footer__top {
   width: 24px;
   height: 24px;
+  margin-left: 90vw;
+  margin-bottom: 16px;
 
+}
+
+.footer__icons {
+  padding-top: 25px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.footer__icons:hover {
+  animation-name: spin;
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }
