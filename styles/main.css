@@ -88,11 +88,12 @@
     margin-left: 43px;
   }
 }
-/* -------------------------------------HEADER---------------------------------- */
-.main__title:first-letter {
+/* -------------------------------------MAIN---------------------------------- */
+/* -------------------------------------MODULE1---------------------------------- */
+.main__module1--title:first-letter {
   text-transform: capitalize;
 }
-.main__title {
+.main__module1--title {
   width: 322px;
   height: 113px;
   margin: 0 0 37px;
@@ -114,7 +115,7 @@
   justify-content: center;
   background-color: var(--grey-color);
 }
-.main__article {
+.main__module1--article {
   display: grid;
   justify-content: center;
 }
@@ -128,9 +129,9 @@
   margin: 40px auto 30px auto;
 }
 
-.main__title1,
-.main__title2,
-.main__title3 {
+.main__module1--title1,
+.main__module1--title2,
+.main__module1--title3 {
   width: 208px;
   height: 23px;
   flex-grow: 0;
@@ -144,19 +145,19 @@
   text-align: center;
   color: var(--darkblue-color);
 }
-.main__title1,
-.main__title3 {
+.main__module1--title1,
+.main__module1--title3 {
   margin-bottom: 12px;
 }
-.main__title2 {
+.main__module1--title2 {
   margin-bottom: 53px;
 }
-.main__title1,
-.main__title2,
-.main__title3:first-letter {
+.main__module1--title1,
+.main__module1--title2,
+.main__module1--title3:first-letter {
   text-transform: capitalize;
 }
-.main__article--par {
+.main__module1--article--par {
   width: 208px;
   height: 96px;
   flex-grow: 0;
@@ -170,6 +171,105 @@
   text-align: center;
   color: var(--darkblue-color);
 }
-.main__article--par:first-letter {
+.main__module1--article--par:first-letter {
   text-transform: capitalize;
 }
+/* -------------------------------------MODULE2---------------------------------- */
+.main__module2 {
+  background-color: var(--orange-color);
+  font-family: Poppins;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white-color);
+  display: grid;
+  justify-content: center;
+}
+.main__module2--img {
+  margin: 46px auto 10px auto;
+}
+.main__module2--title {
+  width: 414px;
+  height: 41px;
+  margin: 10px 0 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.main__module2--title:first-letter {
+  text-transform: capitalize;
+}
+.main__module2--text {
+  width: 375px;
+  height: 31px;
+  margin: 0px 27px 5px 12px;
+  font-size: 14px;
+}
+.main__module2--text:first-letter {
+  text-transform: capitalize;
+}
+.main__module2--button {
+  color: var(--white-color);
+  /* width: 127px; */
+  height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px auto 47px auto;
+  padding: 24px 21px;
+}
+.main__module2--button:first-letter {
+  text-transform: capitalize;
+}
+/* -------------------------------------MODULE3---------------------------------- */
+.main__module3--section1 {
+  display: grid;
+  justify-content: center;
+  background-color: var(--grey-color);
+}
+.main__module3--article {
+  width: 360px;
+  height: 112px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--darkblue-color);
+  margin: 87px 27px 71px 27px;
+}
+.main__module3--title:first-letter {
+  text-transform: capitalize;
+}
+.main__module3--text {
+  font-size: 14px;
+}
+.main__module3--text:first-letter {
+  text-transform: capitalize;
+}
+.main__module3--button {
+  width: 176px;
+  height: 48px;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white-color);
+  background-color: var(--darkblue-color);
+  margin: 5px auto 92px auto;
+  padding: 24px 12px;
+}
+.main__module3--button:first-letter {
+  text-transform: capitalize;
+}
+.main__module3--img {
+  width: 100vw;
+}
+/*-------------------------------------FOOTER---------------------------------- */
