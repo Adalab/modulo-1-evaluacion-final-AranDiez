@@ -1,5 +1,6 @@
 .main__module1 {
   background-color: var(--grey-color);
+  padding-bottom: 20px;
 }
 
 .main__module1--wrapper {
@@ -12,12 +13,15 @@
 
 .main__module1--title {
   width: 322px;
-  margin: 41px 47px 0px 45px;
+  margin-top: 41px;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
   color: var(--darkblue-color);
+}
+.main__module1--image {
+  margin-bottom: 47px;
 }
 
 .main__module1--article {
