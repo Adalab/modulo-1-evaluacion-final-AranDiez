@@ -10,10 +10,12 @@
 .header__section1 {
   display: flex;
   align-items: center;
-  position: fixed;
+  // position: fixed;
   width: 100vw;
 }
-
+.header__section1--navmenu {
+  position: fixed;
+}
 .header__section1--menulinks {
   display: none;
 }
@@ -43,7 +45,7 @@
   color: var(--darkblue-color);
   font-weight: 600;
   font-size: 1.5rem;
-  margin: 50vh 0 0 0;
+  margin: 30vh 0 0 0;
   text-align: center;
 }
 
