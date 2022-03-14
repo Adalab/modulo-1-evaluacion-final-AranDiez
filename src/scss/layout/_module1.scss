@@ -23,18 +23,7 @@
 .main__module1--article {
   display: grid;
   justify-content: center;
-  display: grid;
-
   justify-items: center;
-}
-
-.main__module1--image1 {
-}
-
-.main__module1--image2 {
-}
-
-.main__module1--image3 {
 }
 
 .main__module1--title1,
@@ -66,4 +55,21 @@
   font-size: 1rem;
   text-align: center;
   color: var(--darkblue-color);
+}
+@media (min-width: 768px) {
+  .main__module1--wrapper {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .main__module1--title {
+    width: 100%;
+    grid-column: span 3;
+    text-align: center;
+  }
+  .main__module1--article {
+    width: 100%;
+  }
 }
