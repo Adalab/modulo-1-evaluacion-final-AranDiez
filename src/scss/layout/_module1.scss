@@ -9,6 +9,9 @@
   align-items: center;
   justify-items: center;
   row-gap: 2rem;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 40px;
 }
 
 .main__module1--title {
@@ -25,6 +28,7 @@
 }
 
 .main__module1--article {
+  height: 80%;
   display: grid;
   justify-content: center;
   justify-items: center;
