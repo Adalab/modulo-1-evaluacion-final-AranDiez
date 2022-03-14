@@ -94,9 +94,10 @@
 }
 
 .main__module1--wrapper {
-  width: 100vw;
   display: grid;
-  justify-content: center;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 .main__module1--title {
@@ -113,18 +114,18 @@
 .main__module1--article {
   display: grid;
   justify-content: center;
+  display: grid;
+
+  justify-items: center;
 }
 
 .main__module1--image1 {
-  margin: 37px auto 47px auto;
 }
 
 .main__module1--image2 {
-  margin: 36px auto 42px auto;
 }
 
 .main__module1--image3 {
-  margin: 40px auto 30px auto;
 }
 
 .main__module1--title1,
@@ -261,14 +262,15 @@
 .main__module3--img {
   height: cover;
   background-size: cover;
-  max-width: 100%;
   margin: auto;
+  max-width: 100%;
 }
 
 /*-------------------------------------FOOTER---------------------------------- */
 .footer {
   background-color: var(--darkblue-color);
   font-family: "Poppins", sans-serif;
+  margin-top: -15px;
 }
 
 .footer__article1 {
@@ -349,30 +351,8 @@
     width: 400px;
   }
 
-  .main__module1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .header__section2--button {
     margin-top: 12px;
-  }
-
-  .main__module1--title {
-    width: 100vw;
-    height: 38px;
-    grid-column: span 3;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--darkblue-color);
-    margin: 63px 38px 0 63px;
-    padding: 0;
-  }
-
-  .main__module1--article {
-    width: 100%;
   }
 
   .main__module3--img {
@@ -424,5 +404,23 @@
   .main__module3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 50vh;
+  }
+  .main__module3--img {
+    height: 50vh;
+    object-fit: cover;
+  }
+  .footer {
+    margin-top: 0px;
+  }
+
+  .main__module3--section1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 25%;
+  }
+  .main__module3--text {
+    text-align: start;
   }
 }
