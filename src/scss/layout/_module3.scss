@@ -56,3 +56,24 @@
   margin: auto;
   max-width: 100%;
 }
+
+@media (min-width: 768px) {
+  .main__module3--img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 980px) {
+  .main__module3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+  }
+  .main__module3--img {
+    height: 50vh;
+    object-fit: cover;
+  }
+  .main__module3--text {
+    text-align: start;
+  }
+}

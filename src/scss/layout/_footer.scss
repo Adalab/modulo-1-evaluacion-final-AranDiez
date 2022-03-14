@@ -67,3 +67,33 @@
     transform: rotate(360deg);
   }
 }
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 71px 57px 74px 118px;
+    width: 100vw;
+  }
+
+  .footer__article1 {
+    padding: 0;
+  }
+
+  .footer__top {
+    margin: 0;
+    margin-top: 110px;
+  }
+}
+@media (min-width: 980px) {
+  .footer {
+    margin-top: 0px;
+  }
+
+  .main__module3--section1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 25%;
+  }
+}
