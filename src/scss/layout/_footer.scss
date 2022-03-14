@@ -1,0 +1,69 @@
+.footer {
+  background-color: var(--darkblue-color);
+  font-family: "Poppins", sans-serif;
+  margin-top: -15px;
+}
+
+.footer__article1 {
+  margin: 10px;
+  padding-top: 20px;
+  padding-right: 59px;
+  padding-bottom: 0;
+  padding-left: 146px;
+}
+
+.footer__list1 {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer__link1,
+.footer__link1--tienda {
+  text-decoration: none;
+  color: var(--grey-color);
+  font-size: 1.25rem;
+  padding-bottom: 10px;
+}
+
+.footer__link1--tienda {
+  padding-top: 51px;
+}
+
+.footer__link2 {
+  text-decoration: none;
+  color: var(--grey-color);
+  font-size: 0.875rem;
+}
+
+.fa-linkedin-in,
+.fa-instagram,
+.fa-twitter {
+  color: var(--grey-color);
+  padding-right: 10px;
+}
+
+.footer__top {
+  width: 24px;
+  height: 24px;
+  margin-left: 90vw;
+  margin-bottom: 16px;
+}
+
+.footer__icons {
+  padding-top: 25px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.footer__icons:hover {
+  animation-name: spin;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
