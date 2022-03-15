@@ -1,0 +1,18 @@
+.extra__section {
+  background-color: var(--orange-color);
+  display: none;
+}
+.extra__section1 {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .extra__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .extra__section1 {
+    grid-column: span 3;
+    text-align: center;
+  }
+}
